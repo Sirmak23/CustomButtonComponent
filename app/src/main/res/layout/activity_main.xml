@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_blue_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="LARGE"
+        app:customBackgroundColor="@color/blue_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:progress_button_title="@string/login" />
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_blue_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="MEDIUM"
+        android:layout_marginTop="15dp"
+        app:customBackgroundColor="@color/blue_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_button_blue_large"
+        app:progress_button_title="@string/login" />
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_blue_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="SMALL"
+        android:layout_marginTop="15dp"
+        app:customBackgroundColor="@color/blue_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_button_blue_medium"
+        app:progress_button_title="@string/login" />
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_light_blue_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="LARGE"
+        android:layout_marginTop="40dp"
+        app:customBackgroundColor="@color/light_blue_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_button_blue_small"
+        app:progress_button_title="@string/login" />
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_light_blue_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="MEDIUM"
+        android:layout_marginTop="15dp"
+        app:customBackgroundColor="@color/light_blue_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_button_light_blue_large"
+        app:progress_button_title="@string/login" />
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_light_blue_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="SMALL"
+        android:layout_marginTop="15dp"
+        app:customBackgroundColor="@color/light_blue_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_button_light_blue_medium"
+        app:progress_button_title="@string/login" />
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_white_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="LARGE"
+        android:layout_marginTop="40dp"
+        app:customBackgroundColor="@color/white_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_button_light_blue_small"
+        app:progress_button_title="@string/login" />
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_white_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="MEDIUM"
+        android:layout_marginTop="15dp"
+        app:customBackgroundColor="@color/white_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_button_white_large"
+        app:progress_button_title="@string/login" />
+
+    <com.irmak.customcomponent.ProgressButton
+        android:id="@+id/progress_button_white_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonSize="SMALL"
+        android:layout_marginTop="15dp"
+        app:customBackgroundColor="@color/white_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_button_white_medium"
+        app:progress_button_title="@string/login" />
+</androidx.constraintlayout.widget.ConstraintLayout>

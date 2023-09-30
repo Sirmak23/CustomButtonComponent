@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- values/values.xml dosyası -->
+
+<resources>
+    <declare-styleable name="ProgressButton">
+        <attr name="progress_button_title" format="string"/>
+        <attr name="progress_loading_title" format="string"/>
+        <attr name="buttonSize" format="enum">
+            <enum name="SMALL" value="0" />
+            <enum name="MEDIUM" value="1" />
+            <enum name="LARGE" value="2" />
+        </attr>
+
+        <attr name="colorOption" format="enum">
+            <enum name="BLUE" value="0" />
+            <enum name="LIGHT_BLUE" value="1" />
+            <enum name="WHITE" value="2" />
+        </attr>
+        <attr name="customBackgroundColor" format="color" />
+    </declare-styleable>
+</resources>
