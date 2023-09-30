@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- values/values.xml dosyası -->
-
 <resources>
     <declare-styleable name="ProgressButton">
         <attr name="progress_button_title" format="string"/>

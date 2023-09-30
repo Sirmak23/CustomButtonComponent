@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- values/integer.xml dosyası -->
-
 <resources>
     <integer name="small_button">35</integer>
     <integer name="medium_button">85</integer>
