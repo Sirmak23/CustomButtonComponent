@@ -15,11 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.progressButtonBlueLarge.setOnClickListener{
-//            binding.progressButtonBlueLarge.setLoading()
+//            binding.progressButtonBlueLarge.setLoading() // you can check the loading status with this function
             lifecycleScope.launch {
                 delay(1_500)
                 Toast.makeText(applicationContext,"tıklandı",Toast.LENGTH_SHORT).show()
-//                binding.progressButtonBlueLarge.setNormal()
+//                binding.progressButtonBlueLarge.setNormal() // you can check the loading status with this function
             }
         }
         binding.progressButtonBlueMedium.setOnClickListener{

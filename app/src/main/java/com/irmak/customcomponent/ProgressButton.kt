@@ -20,7 +20,7 @@ class ProgressButton @JvmOverloads constructor(
     private var loadingTitle: String? = null
     private var customBackgroundColor: Int = Color.TRANSPARENT
     private val binding = ProgressButtonBinding
-        .inflate(LayoutInflater.from(context), this, true)
+        .inflate(LayoutInflater.from(context), this,    true)
     private var state: ProgressButtonState = ProgressButtonState.Normal
         set(value) {
             field = value

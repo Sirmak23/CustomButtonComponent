@@ -16,4 +16,12 @@
         </attr>
         <attr name="customBackgroundColor" format="color" />
     </declare-styleable>
+    <declare-styleable name="CustomCheckBox">
+        <attr name="checkboxStrokeWidth" format="dimension" />
+        <attr name="checkboxCornerRadius" format="dimension" />
+        <attr name="checkboxStrokeColor" format="dimension" />
+        <attr name="checkboxFillColor" format="color" />
+        <attr name="checkboxTitle" format="string" />
+
+    </declare-styleable>
 </resources>

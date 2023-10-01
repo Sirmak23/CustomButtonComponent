@@ -7,15 +7,27 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <com.irmak.customcomponent.CheckBox
+        android:id="@+id/customCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fups"
+        app:checkboxCornerRadius="@dimen/custom_checkbox_corner_radius"
+        app:checkboxStrokeWidth="@dimen/custom_checkbox_stroke_width"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <com.irmak.customcomponent.ProgressButton
         android:id="@+id/progress_button_blue_large"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:buttonSize="LARGE"
+        android:layout_marginTop="15dp"
         app:customBackgroundColor="@color/blue_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customCheckBox"
         app:progress_button_title="@string/login" />
 
     <com.irmak.customcomponent.ProgressButton

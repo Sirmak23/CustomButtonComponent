@@ -1,6 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.CustomComponent" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.CustomComponent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorSecondary">@color/checkboxFillColor</item>
     </style>
 
     <style name="Theme.CustomComponent" parent="Base.Theme.CustomComponent" />
+
+
 </resources>
